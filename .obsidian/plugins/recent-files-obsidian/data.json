@@ -1,0 +1,36 @@
+{
+  "recentFiles": [
+    {
+      "basename": "리액트 쿼리",
+      "path": "리액트 쿼리.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "Nginx/nginx.md"
+    },
+    {
+      "basename": "Docker 기본",
+      "path": "Docker/Docker 기본.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Docker/Docker.md"
+    },
+    {
+      "basename": "도커",
+      "path": "몰입코딩 아카이브/도커.md"
+    },
+    {
+      "basename": "페이지",
+      "path": "몰입코딩 아카이브/페이지.md"
+    },
+    {
+      "basename": "객체, 클래스, 인스턴스",
+      "path": "Java/객체, 클래스, 인스턴스.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

@@ -1,0 +1,23 @@
+{
+  "obsidian-outliner:fold": [],
+  "obsidian-outliner:system-info": [],
+  "obsidian-outliner:unfold": [],
+  "obsidian-outliner:outdent-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "obsidian-outliner:indent-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ]
+}
