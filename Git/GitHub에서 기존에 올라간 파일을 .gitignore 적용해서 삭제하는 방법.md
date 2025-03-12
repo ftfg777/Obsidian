@@ -19,14 +19,14 @@ node_modules/ 패키지 폴더와 .env 파일이 .gitignore에 누락됐다고 �
 이를 .gitignore에 추가하는 방법은 다음과 같다.
 
 **🧑‍💻 명령어로 추가**
-```
+```sh
 echo "node_modules/" >> .gitignore
 echo ".env" >> .gitignore
 ```
 
 
 **🧑‍💻 직접 수정**
-```
+```sh
 nano .gitignore  # nano 에디터로 열기
 vim .gitignore   # vim 에디터로 열기
 ```
@@ -39,13 +39,13 @@ vim .gitignore   # vim 에디터로 열기
 
 
 📌 **수정 후 확인**
-```
+```sh
 cat .gitignore  # 파일 내용 확인
 ```
 
 ✳️ 물론  프로젝트 내부에서 .gitignore 파일을 수정해도 된다!
 만약 .gitignore 파일이 없다면 터미널에서 직접 생성할 수도 있다.
-```
+```sh
 touch .gitignore  # 현재 디렉토리에 생성
 ```
 
@@ -56,7 +56,7 @@ touch .gitignore  # 현재 디렉토리에 생성
 .gitignore에 추가했지만, 기존에 GitHub에 올라간 파일들은 여전히 추적되고 있다.
 따라서 **Git의 캐시에서 해당 파일을 제거하는 과정**이 필요하다.
 
-```
+```sh
 git rm -r --cached .
 ```
 
@@ -73,7 +73,7 @@ git rm -r --cached .
 > 특정 파일만 제거하려면 개별적으로 git rm --cached <파일명>을 사용하면 된다.
 
 예를 들어, config.json 파일을 Git에서 제거하고 싶다면?
-```
+```sh
 git rm --cached config.json
 ```
 
@@ -83,7 +83,7 @@ git rm --cached config.json
 
 파일을 제거한 후, 변경 사항을 저장하고 푸시하면 GitHub에서도 삭제된다.
 
-```
+```sh
 git commit -m "Remove ignored files from tracking"
 git push origin main  # (또는 현재 브랜치명)`
 ```
