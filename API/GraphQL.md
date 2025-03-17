@@ -15,6 +15,11 @@ GraphQL API의 주요 특징
 필요한 데이터를 받으려면 여러 엔드포인트를 호출해야 할 수도 있는 REST API 와는 다르게
 GraphQL에서는 하나의 엔드포인트로 모든 데이터 요청이 가능하다.
 
+graphql:
+  servlet:
+    mapping: /api/query
+application.yml에서 엔드포인트 변경 가능
+
 또한, 클라이언트가 원하는 데이터만 요청이 가능하다.
 
 GraphQL은 스키마를 먼저 정의하고, 이 스키마에 따라 API가 동작한다
